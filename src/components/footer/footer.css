@@ -1,0 +1,22 @@
+.footer .row .line {
+    width: 120px;
+    border-top: solid 2px #ffc107;
+    display: block;
+}
+.footer {
+    background-color: #f8f8f8;
+  }
+  .footer .row {
+    font-family: "Merriweather", serif;
+    padding-top: 20px;
+  }
+  .info svg path {
+    fill: #ffc107;
+  }
+  .socialmedia svg path {
+    fill: #ffc107;
+  }
+  
+  .footer .list-unstyled {
+    text-decoration: none;
+  }
