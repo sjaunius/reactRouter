@@ -1,0 +1,17 @@
+.accordion-button:not(.collapsed){
+    background-color: white !important;
+    color: black !important;
+}
+
+.accordion{
+    width: 100%;
+}
+
+.accordion .accordion-button:focus{
+    border-color: #ffc107 !important;
+}
+
+.choose{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

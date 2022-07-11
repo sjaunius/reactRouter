@@ -4,7 +4,7 @@ import '../navbar/navbar.css';
 import Modal from "../navbar/Modal.jsx";
 import Modal2 from "../navbar/Modal2.jsx";
 import logo from '../images/matchpoint1logo.jpg';
-
+import { Link } from "react-router-dom" 
 
 
 
@@ -34,30 +34,17 @@ const [openModal2, setOpenModal2] = useState(false);
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li>
                   <div className="active">
-                    <a href="#">
-                      <span>Home</span>
-                    </a>
+                    <Link to="/"> Home </Link>
                   </div>
                 </li>
                 <li>
-                  <a href="#">
-                    About
-                  </a>
+                <Link to="/About"> About </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Courts
-                  </a>
+                <Link to="/Courts"> Courts </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Gallery
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Contacts
-                  </a>
+                <Link to="/Contacts"> Contacts </Link>
                 </li>
             </ul>
           </div>
